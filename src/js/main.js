@@ -27,8 +27,9 @@ function createCard(pokemon) {
     const cardPokemon = document.createElement('div')
     cardPokemon.className = 'cardPokemon'
     cardPokemon.innerHTML = `
-    <img class="pokemonSprite" src="${pokemon.sprites.front_default}">
+    <img class="pokemonSprite"  src="${pokemon.sprites.other.dream_world.front_default}">
     <h2>${pokemon.name}</h2> 
        `
-    pokedexDisplay.appendChild(cardPokemon);   
+    pokedexDisplay.innerHTML = '';
+    pokedexDisplay.appendChild(cardPokemon);
 }

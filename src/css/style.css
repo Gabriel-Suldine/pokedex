@@ -65,3 +65,25 @@ main {
     width: 50%;
 
 }
+
+.cardPokemon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 190px;
+    height: 250px;
+    background-color: #dcdcdc;
+    border: 5px double rgb(239, 184, 16);
+    border-radius: 12px; 
+}
+
+.pokemonSprite{    
+    width: 100px;
+    height: 100px; 
+}
+.cardPokemon h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-bottom: 3px double;  
+}
